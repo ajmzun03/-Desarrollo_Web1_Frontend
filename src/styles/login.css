@@ -88,8 +88,14 @@
           display: inline-flex;
           align-items: center;
           gap: 0.4rem;
+          color: var(--color-text-secondary)
         }
       }
+    }
+
+    .login__footer {
+      color: var(--color-text-secondary);
+      font-size: 0.9rem;
     }
   }
 
