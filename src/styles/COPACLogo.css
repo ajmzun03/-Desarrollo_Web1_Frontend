@@ -1,0 +1,24 @@
+.copac_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+
+  & > .copac-logo__image {
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-primary-dark);
+  }
+
+  & > .copac-logo__text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 0.5rem;
+    color: var(--color-white);
+
+    & > .copac-logo__subtitle {
+      color: var(--color-text-secondary);
+      font-weight: 600;
+    }
+  }
+}

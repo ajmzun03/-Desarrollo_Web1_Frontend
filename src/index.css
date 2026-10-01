@@ -1,0 +1,112 @@
+#root {
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--color-carbon);
+  background-color: var(--color-bg-main);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* ==========================================
+     1. Marca y Colores Principales
+     ========================================== */
+  --color-primary: #8b1208;
+  /* Rojo vino (primario) */
+  --color-primary-hover: #a8160a;
+  /* Rojo vino hover */
+  --color-primary-dark: #6b0d06;
+  /* Rojo vino oscuro */
+
+  --color-carbon: #211d1b;
+  /* Carbón (sidebar y texto principal) */
+  --color-carbon-light: #2e2926;
+  /* Carbón claro */
+
+  --color-accent: #e8a044;
+  /* Naranja (acento y CTA) */
+  --color-accent-dark: #cf8a2e;
+  /* Naranja oscuro */
+
+  --color-bg-main: #f7f4ef;
+  /* Crema (fondo general) */
+  --color-bg-soft: #f0ede8;
+  /* Crema oscuro (hover y fondos suaves) */
+  --color-white: #ffffff;
+  /* Blanco (cards) */
+
+  /* ==========================================
+     2. Neutros
+     ========================================== */
+  --color-text-secondary: #6b6865;
+  /* Gris texto secundario */
+  --color-border: #e8e5e0;
+  /* Gris borde */
+  --color-border-strong: #c8c4bf;
+  /* Gris borde fuerte */
+  --color-placeholder: #a8a4a0;
+  /* Gris placeholder */
+  --color-bg-cool-gray: #f3f4f6;
+  /* Gris fondo frío */
+  --color-slate-gray: #374151;
+  /* Gris pizarra */
+  --color-gray-dark: #333333;
+  /* Gris #333 */
+
+  /* ==========================================
+     3. Estados (Éxito, Alerta, Error, Info)
+     ========================================== */
+  /* Éxito */
+  --color-success: #2e8b57;
+  /* Verde éxito */
+  --color-success-bg: #d1f0de;
+  /* Verde fondo */
+  --color-success-text-dark: #166534;
+  /* Verde texto oscuro */
+  --color-success-text-variant: #166634;
+  /* Verde texto oscuro (variante) */
+
+  /* Error */
+  --color-error: #c0392b;
+  /* Rojo error */
+  --color-error-bg: #fee2e2;
+  /* Rojo fondo */
+
+  /* Advertencia / Alerta */
+  --color-warning: #d99000;
+  /* Ámbar advertencia */
+  --color-warning-bg: #fef3c7;
+  /* Ámbar fondo */
+  --color-warning-text-dark: #92400e;
+  /* Ámbar texto oscuro */
+
+  /* Información y Otros */
+  --color-info: #1d4ed8;
+  /* Azul info */
+  --color-info-bg: #dbeafe;
+  /* Azul fondo */
+  --color-petroleum: #3b82a0;
+  /* Azul petróleo (gráficos y despacho) */
+  --color-purple: #7c3aed;
+  /* Violeta */
+  --color-purple-bg: #f3e8ff;
+  /* Violeta fondo */
+  --color-pink-light: #fef0fe;
+  /* Rosa muy claro */
+}
